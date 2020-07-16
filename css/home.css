@@ -126,11 +126,11 @@ h2 {
 
 .skill-top {
 	padding-top: 75px;
-	padding-left: 156px; 
+	padding-left: 80px; 
 	display: flex;
 	align-items: center;
 	width: 1086px;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .skill-text {
