@@ -1,0 +1,133 @@
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url(../fonts/font.woff) format("woff"),
+	url(../fonts/font.woff2) format("woff2");
+}
+
+body, html, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'MuseoSansCyrl', serif;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    padding: 0 40px 0 40px;
+    box-sizing: border-box;
+}
+
+.logo {
+	position: absolute;
+	left: 110px;
+	top: 16px;
+	width: 90px;
+	height: 90px;
+}
+
+.logo:hover {
+	background: transparent;
+}
+
+.headbar {
+	display: inline-block;
+}
+
+.headbar a {
+	text-decoration: none;
+	color: #02266d;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+	padding-left: 44px;
+}
+
+footer {
+    width: calc(100% - 80px);
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #02266d;
+    display: flex;
+}
+
+.footer-left {
+	padding-top: 60px;
+	padding-left: 115px;
+	width: 50%;
+	height: 100%;
+	border-right: 1px solid rgba(255, 255, 255, .5);
+	box-sizing: border-box;
+}
+
+.footer-left p, .footer-right p {
+	color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+	background-color: #02266d;
+}
+
+.footer-button {
+	width: 260px;
+	height: 60px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	position: relative;
+	margin-top: 30px;
+}
+
+.footer-button::after {
+	box-sizing: border-box;
+	content: "Начать новый проект";
+	position: absolute;
+	width: 260px;
+	height: 60px;
+	background-color: #fff;
+	color: #02266d;
+	font-family: MuseoSansCyrl;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 20px;
+	top: -5px;
+	left: -5px;
+	padding-top: 22px;
+	cursor: pointer;
+}
+
+.footer-right {
+	width: 50%;
+	height: 100%;
+	padding-top: 60px;
+	padding-left: 101px;
+	box-sizing: border-box;
+}
+
+.footer-right a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+	background-color: #02266d;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+	margin-right: 17px;
+	padding: 0 16px 0; 
+}
+
+a:hover {
+	background-color: #fff;
+	color: #02266d;
+}
+
+.social {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}

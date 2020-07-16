@@ -1,0 +1,452 @@
+@media screen and (max-device-width: 605px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 0 16px;
+		height: 30px;
+	}
+
+	.logo {
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		left: 16px;
+		top: 18px;
+	}
+
+	.logo img {
+		width: 100%;
+		height: auto;
+	}
+
+	.headbar a {
+		padding-left: 16px;
+	}
+
+	.person {
+  		background-position: center;
+		height: auto;
+		width: calc(100% - 32px);
+	}
+
+	.dev-rinat {
+  		width: 100%;
+  		padding: 32px 16px;
+  		font-size: 22px;
+  		line-height: 1.5;
+	}
+
+	.dev-rinat > p {
+		font-size: 32px;
+	}
+
+	.dev-rinat > p::after {
+		display: none;
+	}
+
+	.person-button {
+		margin: 0 16px 32px;
+
+	}
+
+	.skill {
+		width: calc(100% - 32px);
+		height: auto;
+	}
+
+	.skill-top {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		padding: 32px 16px;
+		justify-content: flex-start;
+	}
+
+	.skill-text {
+		width: 100%;
+		padding-top: 20px;
+		text-align: justify;
+	}
+
+	.skill-bottom {
+		margin: 0 16px ;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 32px;
+		justify-content: center;
+	}
+
+	.skill-type {
+		margin: 4px 4px;
+	}
+
+	.gallery {
+		width: calc(100% - 32px);
+		padding-bottom: 32px;
+	}
+
+	.gallery h2 {
+		width: 100%;
+	}
+
+	.gallery-box {
+		flex-wrap: wrap;
+	}
+
+	.box img {
+		margin-top: 16px;
+	}
+
+	.img-text {
+		margin-top: 16px;
+	}
+
+	footer {
+    	width: calc(100% - 32px);
+    	height: auto;
+    	flex-direction: column;
+	}
+
+	.footer-left {
+		width: 100%;
+		padding: 32px 16px; 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-left p {
+		text-align: center;
+	}
+
+	.footer-right {
+		width: 100%;
+		padding: 32px 16px;
+	}
+
+	.footer-right p {
+		text-align: center;
+	}
+
+	.social {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-device-width: 606px) and (max-device-width: 812px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 0 16px;
+		height: 30px;
+	}
+
+	.logo {
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		left: 32px;
+		top: 20px;
+	}
+
+	.logo img {
+		width: 100%;
+		height: auto;
+	}
+
+	.headbar a {
+		padding-left: 16px;
+	}
+
+	.person {
+  		background-position: center;
+		height: auto;
+		width: calc(100% - 32px);
+	}
+
+	.dev-rinat {
+  		width: 50%;
+  		padding: 32px 16px;
+  		font-size: 22px;
+  		line-height: 1.5;
+	}
+
+	.dev-rinat > p {
+		font-size: 32px;
+	}
+
+	.dev-rinat > p::after {
+		display: none;
+	}
+
+	.person-button {
+		margin: 0 16px 32px;
+
+	}
+
+	.skill {
+		width: calc(100% - 32px);
+		height: auto;
+	}
+
+	.skill-top {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		padding: 32px 16px;
+		justify-content: flex-start;
+	}
+
+	.skill-text {
+		width: 100%;
+		padding-top: 20px;
+		text-align: justify;
+	}
+
+	.skill-bottom {
+		margin: 0 16px ;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 32px;
+		justify-content: center;
+	}
+
+	.skill-type {
+		margin: 4px 4px;
+	}
+
+	.gallery {
+		width: calc(100% - 32px);
+		padding-bottom: 32px;
+	}
+
+	.gallery h2 {
+		width: 100%;
+	}
+
+	.gallery-box {
+		flex-wrap: wrap;
+	}
+
+	.box img {
+		width: 95%;
+		margin-top: 16px;
+	}
+
+	.img-text {
+		margin-top: 16px;
+	}
+
+	footer {
+    	width: calc(100% - 32px);
+    	height: auto;
+    	flex-direction: column;
+	}
+
+	.footer-left {
+		width: 100%;
+		padding: 32px 16px; 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-left p {
+		text-align: center;
+	}
+
+	.footer-right {
+		width: 100%;
+		padding: 32px 16px;
+	}
+
+	.footer-right p {
+		text-align: center;
+	}
+
+	.social {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-device-width: 813px) and (max-device-width: 1080px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 0 16px;
+		height: 30px;
+	}
+
+	.logo {
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		left: 32px;
+		top: 20px;
+	}
+
+	.logo img {
+		width: 100%;
+		height: auto;
+	}
+
+	.headbar a {
+		padding-left: 16px;
+	}
+
+	.person {
+  		background-position: center;
+		height: auto;
+		width: calc(100% - 32px);
+	}
+
+	.dev-rinat {
+  		width: 50%;
+  		padding: 32px 16px;
+  		font-size: 22px;
+  		line-height: 1.5;
+	}
+
+	.dev-rinat > p {
+		font-size: 32px;
+	}
+
+	.dev-rinat > p::after {
+		display: none;
+	}
+
+	.person-button {
+		margin: 0 16px 32px;
+
+	}
+
+	.skill {
+		width: calc(100% - 32px);
+		height: auto;
+	}
+
+	.skill-top {
+		width: 100%;
+		height: auto;
+		padding: 32px 16px;
+		justify-content: flex-start;
+	}
+
+	.skill-image {
+
+	}
+
+	.skill-text {
+		width: 80%;
+		padding-left: 32px;
+		padding-top: 20px;
+		text-align: justify;
+	}
+
+	.skill-bottom {
+		margin: 0 16px ;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 32px;
+		justify-content: center;
+	}
+
+	.skill-type {
+		margin: 4px 4px;
+	}
+
+	.gallery {
+		width: calc(100% - 32px);
+		padding-bottom: 32px;
+	}
+
+	.gallery h2 {
+		width: 100%;
+	}
+
+	.gallery-box {
+		display: flex;
+	align-items: center;
+	justify-content: space-around;
+	}
+
+	.box {
+		
+	}
+
+	.box img {
+		margin-top: 16px;
+		width: 85%;
+	}
+
+	.box:nth-child(2) {
+		width: 313px;
+	}
+
+	.img-text {
+		margin-top: 16px;
+		width: 88%;
+	}
+
+	.cell-4 .box {
+		width: 217px;
+	}
+
+	footer {
+    	width: calc(100% - 32px);
+    	height: auto;
+    	flex-direction: column;
+	}
+
+	.footer-left {
+		width: 100%;
+		padding: 32px 16px; 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-left p {
+		text-align: center;
+	}
+
+	.footer-right {
+		width: 100%;
+		padding: 32px 16px;
+	}
+
+	.footer-right p {
+		text-align: center;
+	}
+
+	.social {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+}

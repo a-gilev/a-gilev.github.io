@@ -1,0 +1,159 @@
+.person {
+  background-image: url(../img/photo.png);
+  background-size: cover;
+  width: calc(100% - 80px);
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dev-rinat {
+  color: #02266D;
+  font-family: MuseoSansCyrl;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  width: 666px;
+  padding-left: 116px;
+  padding-top: 256px;
+}
+
+.dev-rinat p {
+	position: relative;
+}
+
+.dev-rinat p::after {
+	content: "";
+	background-color: #02266d;
+	height: 3px;
+	width: 290px;
+	position: absolute;
+	right: 58px;
+	top: 23px;
+}
+
+.person-button {
+	width: 260px;
+	height: 60px;
+	border: 1px solid #02266d;
+	background-color: transparent;
+	position: relative;
+	margin-top: 49px;
+	margin-left: 120px;
+}
+
+.person-button::after {
+	box-sizing: border-box;
+	content: "Начать новый проект";
+	position: absolute;
+	width: 260px;
+	height: 60px;
+	background-color: #fff;
+	color: #02266d;
+	font-family: MuseoSansCyrl;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 20px;
+	top: -5px;
+	left: -5px;
+	padding-top: 22px;
+	cursor: pointer;
+}
+
+.gallery {
+	width: calc(100% - 80px);
+	margin: 0 auto;
+	padding-bottom: 85px;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 34px;
+	width: 338px;
+	color: #02266d;
+	border-bottom: 3px solid #02266d;
+}
+
+.gallery-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.box {
+	width: 373px;
+}
+
+.box img {
+	width: 100%;	
+}
+
+.box:nth-child(2) {
+	width: 433px;
+}
+
+.img-text {
+	color: #8993a4;
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: 20px;
+}
+
+.img-text span {
+	color: #02266d;
+}
+
+.cell-4 {
+	margin-top: 30px;
+}
+
+.cell-4 .box {
+	width: 287px;
+}
+
+.cell-4 .box:nth-child(odd) {
+	height: 360px;
+}
+
+.skill {
+	background-color: #02266d;
+	width: calc(100% - 80px);
+	height: 420px;
+	margin-top: 45px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-top {
+	padding-top: 75px;
+	padding-left: 156px; 
+	display: flex;
+	align-items: center;
+	width: 1086px;
+	justify-content: space-between;
+}
+
+.skill-text {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 897px;
+}
+
+.skill-bottom {
+	margin-left: 116px;
+	margin-top: 76px;
+}
+
+.skill-type {
+    color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	margin-right: 14px;
+}
